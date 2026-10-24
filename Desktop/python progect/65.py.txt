@@ -1,0 +1,11 @@
+#sam=open(r"C:Users\User\Desktop\New folder\yahya.txt")
+#print(sam.read())
+import os
+
+print(os.getcwd())
+file=open("data.txt")
+print(file.read())
+print(os.path.abspath(__file__))
+print(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+print(os.getcwd())

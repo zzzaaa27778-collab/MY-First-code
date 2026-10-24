@@ -1,0 +1,10 @@
+managers=['yahya','sam','ruqaia','ahmad','zenji']
+x=enumerate(managers,0)
+for counter,name in x :
+    print(f"{counter}--{name}")
+    print(help(managers. remove))
+print()
+
+my_name='yahya'    
+for y in reversed(my_name) :
+    print(y)
